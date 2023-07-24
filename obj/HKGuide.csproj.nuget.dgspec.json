@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anoncer/Github/HKGuide/HKGuide/HKGuide.csproj": {}
+    "/Users/anoncer/Github/HKGuide/HKGuide.csproj": {}
   },
   "projects": {
-    "/Users/anoncer/Github/HKGuide/HKGuide/HKGuide.csproj": {
+    "/Users/anoncer/Github/HKGuide/HKGuide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anoncer/Github/HKGuide/HKGuide/HKGuide.csproj",
+        "projectUniqueName": "/Users/anoncer/Github/HKGuide/HKGuide.csproj",
         "projectName": "HKGuide",
-        "projectPath": "/Users/anoncer/Github/HKGuide/HKGuide/HKGuide.csproj",
+        "projectPath": "/Users/anoncer/Github/HKGuide/HKGuide.csproj",
         "packagesPath": "/Users/anoncer/.nuget/packages/",
-        "outputPath": "/Users/anoncer/Github/HKGuide/HKGuide/obj/",
+        "outputPath": "/Users/anoncer/Github/HKGuide/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anoncer/.nuget/NuGet/NuGet.Config"
