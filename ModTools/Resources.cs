@@ -19,12 +19,7 @@ namespace HKGuide.ModTools
         public Dictionary<string, string> Levels = new Dictionary<string, string>();
 
         //Resources Fonts
-        public static class Fonts
-        {
-            public static Font? trajanBold;
-            public static Font? trajanNormal;
-            public static Font? arial;
-        }
+        public ResFonts Fonts = new ResFonts();
 
         public void Load()
         {
@@ -141,6 +136,13 @@ namespace HKGuide.ModTools
                 }
                 return _instance;
             }
+        }
+
+        public class ResFonts
+        {
+            public Font? trajanBold;
+            public Font? trajanNormal;
+            public Font? arial;
         }
     }
 }

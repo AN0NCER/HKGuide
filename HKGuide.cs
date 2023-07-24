@@ -11,7 +11,7 @@ namespace HKGuide
     public class HKGuide : Mod
     {
         new public string GetName() => "HKGuide";
-        public override string GetVersion() => "v1";
+        public override string GetVersion() => "v1.1";
 
         public override void Initialize()
         {
