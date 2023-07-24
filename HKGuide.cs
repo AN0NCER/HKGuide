@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Modding;
 using UnityEngine;
+using Resources = HKGuide.ModTools.Resources;
+using Object = UnityEngine.Object;
 
 namespace HKGuide
 {
@@ -13,6 +15,7 @@ namespace HKGuide
 
         public override void Initialize()
         {
+            LoadResources();
             ModHooks.HeroUpdateHook += OnHeroUpdate;
         }
 
@@ -22,6 +25,17 @@ namespace HKGuide
             {
                 Log("Press Key O");
             }
+        }
+
+        /// <summary>
+        /// Loading Resources Mods
+        /// </summary>
+        private void LoadResources()
+        {
+            GameObject resourceObject = new GameObject("HKGuideResources");
+            resourceObject.AddComponent<Resources>();
+            Object.DontDestroyOnLoad(resourceObject);
+            Resources.Instance.Load();
         }
     }
 }
